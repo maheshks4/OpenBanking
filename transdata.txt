@@ -1,0 +1,51 @@
+INSERT INTO public.transaction_pool(
+	transaction_id, from_cp, from_account, to_cp, to_acc, amount, created_at)
+	VALUES (?, ?, ?, ?, ?, ?, ?);
+	
+	
+'Srinidhi','Sri Infotech','HSBC','HS111','100000','1.3'
+'Srinidhi','Sri Infotech','RBS','RB211','100000','1.29'
+'Santosh','Santosh Infotech','Societe ','SO311','100000','1.285'
+'Santosh','Santosh Infotech','Citi','CI411','100000','1.32'
+'Mahesh','Mahesh Infotech','HSBC','HS112','100000','1.3'
+'Mahesh','Mahesh Infotech','Societe ','SO312','100000','1.285'
+'Mahesh','Mahesh Infotech','Citi','CI412','100000','1.32'
+'Sumit','Sumit Infotech','RBS','RB212','100000','1.29'
+'Sumit','Sumit Infotech','Citi','CI413','100000','1.32'
+
+
+'Sri Infotech','HS111','Santosh Infotech','SO311',5000
+'Sri Infotech','HS111','Santosh Infotech','SO311',4000
+'Sri Infotech','HS111','Santosh Infotech','SO311',1000
+'Sri Infotech','HS111','Santosh Infotech','CI411',5000
+'Sri Infotech','HS111','Santosh Infotech','SO311',4000
+'Sri Infotech','HS111','Santosh Infotech','SO311',1000
+'Sri Infotech','RB211','Santosh Infotech','SO311',5000
+'Sri Infotech','RB211','Santosh Infotech','SO311',4000
+'Sri Infotech','RB211','Santosh Infotech','CI411',1000
+'Sri Infotech','RB211','Santosh Infotech','CI411',5000
+'Sri Infotech','HS111','Santosh Infotech','SO311',4000
+'Sri Infotech','HS111','Santosh Infotech','SO311',1000
+
+
+'Santosh Infotech','CI411','Sri Infotech','RB211',4000
+'Santosh Infotech','CI411','Sri Infotech','HS111',3000
+'Santosh Infotech','SO311','Sri Infotech','HS111',4000
+'Santosh Infotech','SO311','Sri Infotech','HS111',5000
+'Santosh Infotech','CI411','Sri Infotech','HS111',4000
+'Santosh Infotech','CI411','Sri Infotech','RB211',6000
+
+
+'Sri Infotech','HS111','Mahesh Infotech','HS112',4000
+'Sri Infotech','HS111','Mahesh Infotech','HS112',3000
+'Sri Infotech','HS111','Mahesh Infotech','HS112',4000
+'Sri Infotech','RB211','Mahesh Infotech','HS112',5000
+'Sri Infotech','RB211','Mahesh Infotech','HS112',4000
+'Sri Infotech','RB211','Mahesh Infotech','HS112',6000
+
+'Sri Infotech','HS111','Mahesh Infotech','CI413',4000
+'Sri Infotech','HS111','Mahesh Infotech','CI413',3000
+'Sri Infotech','HS111','Mahesh Infotech','CI413',4000
+'Sri Infotech','RB211','Mahesh Infotech','RB212',5000
+'Sri Infotech','RB211','Mahesh Infotech','RB212',4000
+'Sri Infotech','RB211','Mahesh Infotech','RB212',6000

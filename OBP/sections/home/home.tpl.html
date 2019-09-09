@@ -1,0 +1,34 @@
+<div class="home-frame" ng-init="homeInit()">
+    <div class="home-banner">
+        <div class="container inner">
+            <img class="hidden-sm hidden-xs" src="assets/images/obp_logo_stacked.png" width="320" height="200" style="margin: -10px;padding: 35px;">
+            <h1>Welcome to The Open Bank Project</h1>
+            <h2>The Open Bank Project is an open source API and App store for banks that empowers financial institutions to securely and rapidly enhance their digital offerings using an ecosystem of 3rd party applications and services.</h2>
+            
+            <div class="home-buttons">
+                <a href="https://github.com/OpenBankProject" target="_blank" class="btn btn-lg btn-primary"><span class="icon icon-github2"></span> GitHub</a>
+                <a href="https://openbankproject.com/" target="_blank" class="btn btn-lg btn-default"><span class="icon icon-home"></span>Home</a>
+            </div>
+        </div>
+    </div>
+    <div class="clearbanner"></div>
+    <div class="tutorials-title">
+        <div class="container">
+            HOW IT BENEFITS
+            <div class="hidden-xs share-buttons">
+                <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='15135403'></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="tutorials">
+            <li data-ng-repeat="benefit in home.benefits track by $index" >
+                <div class="number">#{{$index + 1}}</div>
+                <h3>{{benefit.title}}</h3>
+                <p>{{benefit.description}}</p>
+                <a href="{{benefit.link}}" data-ng-class="{'disabled': (benefit.link == '#')}" class="btn btn-lg btn-primary"><span class="icon icon-arrow-up-right5"></span> View</a>
+                <div class="clearfix"></div>
+            </li>
+        </ul>
+    </div>
+</div>

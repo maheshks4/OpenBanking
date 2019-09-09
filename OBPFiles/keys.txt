@@ -1,0 +1,24 @@
+
+username: 1000203893
+password: 123456
+Thank you for registering to use the Open Bank API. Here is your developer information. Please save it in a secure location.
+Consumer ID	162
+Application Type	Web
+Application Name	OBP
+User redirect URL	
+Developer Email	santoshkumarsuru@gmail.com
+App Description	Reserch on OBP
+Consumer Key	htda4jl0ylwaksrf5zoeuv5u3p3o0wk2slpsngti
+Consumer Secret	4tvcpbwidu2roye1xk53itzkcmydiaxovzsz2o3p
+OAuth Endpoint	https://socgen-k-api.openbankproject.com/oauth/initiate
+OAuth Documentation	How to use OAuth for OpenBankProject
+Direct Login Endpoint	https://socgen-k-api.openbankproject.com/my/logins/direct
+Direct Login Documentation	How to use Direct Login
+
+
+
+https://socgen-k-api.openbankproject.com/my/logins/direct
+DirectLogin username="1000203893", password="123456",consumer_key="3rbosqm50o1cuthhr5s42elc3olib3zq4at0to1h"
+
+https://socgen-p-api.openbankproject.com/my/logins/direct
+DirectLogin username="santosh.suru", password="SuRu@9644@obp",consumer_key="3rbosqm50o1cuthhr5s42elc3olib3zq4at0to1h"

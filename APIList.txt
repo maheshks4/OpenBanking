@@ -1,0 +1,142 @@
+Create ATM
+Create Branch
+Create Product
+Create counterparty for an account
+Enable or Disable Consumers
+Get Connector Metrics
+Get Consumer
+Get Consumers
+Get Current FxRate
+Get Metrics
+Search API Metrics via Elasticsearch.
+Search Warehouse Data Via Elasticsearch
+Update Consumer RedirectUrl
+Get Message Docs
+The configuration of the API
+The root of the API
+Add cards for a bank
+Create Account
+Create View.
+Create sandbox
+Delete View
+Get Account by Id (Core)
+Get Account by Id (Full)
+Get Accounts at Bank (Public)
+Get Accounts at all Banks (Private)
+Get Accounts at one Bank (Public and Private).
+Get Other Account by Id.
+Get Public Accounts at all Banks.
+Get Transaction by Id.
+Get Transactions for Account (Core)
+Get Transactions for Account (Full)
+Get Views for Account.
+Get private accounts at one bank (Authenticated access).
+Update Account Label.
+Update Branch
+Update View.
+Create Bank
+Create Transaction Type offered by the bank
+Get Bank
+Get Bank ATM
+Get Bank ATMS
+Get Bank Branch
+Get Bank Branches
+Get Bank Product
+Get Bank Products
+Get Banks
+Get Transaction Types offered by the bank
+Get the Transaction Request Types supported by the bank
+Add KYC Check
+Add KYC Document.
+Add KYC Media.
+Add KYC Status
+Add Social Media Handle
+Get CRM Events for the logged in user
+Get KYC Checks for current Customer
+Get KYC Documents for Customer
+Get KYC Media for a customer
+Get cards for the current user
+Get cards for the specified bank
+Get customer for logged in user
+Get social media handles for a customer
+Get the KYC statuses for a customer
+Create Meeting (video conference/call)
+Get Meeting
+Get Meetings
+Add Corporate Location to Counterparty
+Add Counterparty More Info
+Add Open Corporates URL to Counterparty
+Add a tag.
+Add an image.
+Add comment.
+Add image url to other bank account.
+Add narrative.
+Add physical location to other bank account.
+Add public alias to other bank account.
+Add url to other bank account.
+Add where tag.
+Create Other Account Private Alias
+Delete Counterparty Corporate Location.
+Delete Counterparty Image URL
+Delete Counterparty Open Corporates URL
+Delete Counterparty Physical Location.
+Delete Counterparty Private Alias
+Delete Counterparty Public Alias
+Delete a tag.
+Delete an image
+Delete comment.
+Delete more info of other bank account.
+Delete narrative.
+Delete url of other bank account.
+Delete where tag.
+Get Other Account Metadata.
+Get Other Account Private Alias
+Get comments.
+Get images.
+Get narrative.
+Get public alias of other bank account.
+Get tags.
+Get where tag.
+Update Counterparty Corporate Location
+Update Counterparty Image Url
+Update Counterparty More Info
+Update Counterparty Physical Location
+Update Counterparty Private Alias
+Update Open Corporates Url of Counterparty
+Update narrative.
+Update public alias of other bank account.
+Update url of other bank account.
+Update where tag.
+Create User.
+Add Customer Message.
+Create Customer.
+Create User Customer Link.
+Get Counterparties of one Account.
+Get Customer Messages (current)
+Get Info Of Adapter
+Get Other Accounts of one Account.
+Get User (Current)
+Get User by USERNAME
+Get User by USER_ID
+Get Users by Email Address
+Get access for specific user.
+Get access.
+Get all Users
+Get all customers for logged in user
+Grant User access to View.
+Grant User access to a list of views.
+Revoke access to all Views on Account
+Revoke access to one View.
+Get Other Account of Transaction
+Answer Transaction Request Challenge.
+Create Transaction Request (COUNTERPARTY)
+Create Transaction Request (SEPA)
+Create Transaction Request.
+Get Transaction Request Types for Account
+Get Transaction Requests.
+Add Entitlement for a User.
+Delete Entitlement
+Get Entitlements specified by BANK_ID and USER_ID
+Get Entitlements specified by USER_ID
+Get Roles
+Get all Entitlements

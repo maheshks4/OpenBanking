@@ -1,0 +1,229 @@
+<div class="wrapper wrapper-content" ng-init="dashboardInit()">
+    <div class="animated fadeInRight">
+        <div class="row">
+            <div class="col-lg-2" ng-repeat="bank in userBanks">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-success pull-right">USD</span>
+                        <span class="label label-success pull-right" ng-hide="bank.bank == 'Total'">FxRate {{bank.fxRate}}</span>
+                        <h5>{{bank.bank}}</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <h1 class="no-margins">{{bank.balance}}</h1>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            <span class="stat-percent text-warning col-sm-6">{{bank.inFlow}} <i class="fa fa-level-up"></i></span>
+                            <span class="stat-percent text-success col-sm-6">{{bank.outFlow}} <i class="fa fa-level-down"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-primary pull-right">Updated 06,2017,11:00AM</span>
+                        <i class="fa fa-trophy fa-2x pull-left"></i><h5>Total Transaction Statistics</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <ul class="list-group clear-list" style="margin-bottom: 10px;">
+                            <li class="list-group-item list-group-item-new">
+                                <span class="pull-right">
+                                    {{TransactionStats.Saving}}
+                                </span>
+                                Cost Reduced
+                            </li>
+                            <li class="list-group-item list-group-item-new">
+                                <span class="pull-right">
+                                    {{TransactionStats.Netting}}
+                                </span>
+                                Netted
+                            </li>
+                            <li class="list-group-item list-group-item-new">
+                                <span class="pull-right">
+                                    {{TransactionStats.Merged}}
+                                </span>
+                                Transactions Merged
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Monthly Cash InFlow - OutFlow</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="m-t-sm">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="flot-chart dashboard-chart" ng-controller="dashboardFlotOne as chart">
+                                        <div flot class="flot-chart-content" dataset="chart.flotData" options="chart.flotOptions"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"> 
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Daily Cash InFlow - OutFlow</h5>
+                    </div>
+                    <div class="ibox-content" ng-controller="widgetFlotChart as chart">
+                        <div class="row text-center" ng-controller="chartJsCtrl as chart" style="padding-top: 25px;padding-bottom: 32px;">
+                            <div class="col-lg-6">
+                                <canvas doughnutchart options="chart.doughnutOptions" data="chart.doughnutDataIn" width="100" height="100"></canvas>
+                                <h5>InFlow</h5>
+                            </div>
+                            <div class="col-lg-6">
+                                <canvas doughnutchart options="chart.doughnutOptions" data="chart.doughnutDataOut" width="100" height="100"></canvas>
+                                <h5>OutFlow</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <i class="fa fa-money fa-2x pull-left"></i><h5>Make Payment</h5>
+                    </div>
+                    <div class="ibox-content form-horizontal" style="padding-bottom: 33px;">
+                        <div class="row">
+                            <div ng-class="autoAcc == true ? 'col-lg-12' : 'col-lg-8'">
+                                <div class="">
+                                    <input type="checkbox" name="vehicle" ng-model="autoAcc" checked>Auto select Accounts
+                                </div>
+                                <div class="row form-group" ng-hide="autoAcc">
+                                    <label class="col-lg-6 control-label">From Account</label>
+                                    <div class="col-lg-6">
+                                        <span class="editrow">
+                                            <span ng-hide="editing">
+                                                <b>{{bankSelected}}</b> <span ng-click="editing = true"><i class="fa fa-pencil"></i></span>
+                                            </span>
+                                            <span ng-show="editing">
+                                                <input type="text" ng-model="bankSelected" class="form-control-custom" style="width: 90px;">
+                                                <span ng-click="editing = false"><i class="fa fa-check"></i></span>
+                                            </span>
+                                        </span>
+
+                                        <!-- <input class="form-control" type="text" name="" value="SocGen" /> -->
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <label class="col-lg-6 control-label">To Counterparty</label>
+                                    <div class="col-lg-6">
+                                        <input class="form-control" type="text" name="" value="Matrix Finance" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-lg-6 control-label">Amount</label>
+                                    <div class="col-lg-6">
+                                        <input class="form-control" type="text" name="" value="1000" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <div ng-hide="autoAcc">
+                                    <h5 class="font-bold">Sugg. to Save</h5>
+                                    <a href="javascript:;">10$ by Citi</a><br /> 
+                                    <a href="javascript:;">5$ by HSBC</a><br />
+                                    <a href="javascript:;">4$ by RBS</a><br /><br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="row form-group text-center">
+                                <input class="btn btn-info" type="button" name="" value="Pay" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>User Transaction Details</h5>
+                        <div ibox-tools></div>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-sm-5 m-b-xs">
+                                <div data-toggle="buttons" class="btn-group">
+                                    <label class="btn btn-sm btn-white active" ng-click="getDayTrans()"> <input type="radio" id="option1" name="options"> Day </label>
+                                    <label class="btn btn-sm btn-white" ng-click="getWeekTrans()"> <input type="radio" id="option2" name="options"> Week </label>
+                                    <label class="btn btn-sm btn-white" ng-click="getMonthTrans()"> <input type="radio" id="option3" name="options"> Month </label>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 m-b-xs">
+                                <div data-toggle="buttons" class="btn-group">
+                                    <label class="btn btn-sm btn-white active" ng-click="getOutflowTrans()"> <input type="radio" id="option1" name="options"> Cash OutFlow </label>
+                                    <label class="btn btn-sm btn-white" ng-click="getInflowTrans()"> <input type="radio" id="option2" name="options"> Cash InFlow </label>
+                                    <label class="btn btn-sm btn-white" ng-click="getNettedTrans()"> <input type="radio" id="option2" name="options"> Netted </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Search" class="input-sm form-control"> <span class="input-group-btn">
+                                        <button type="button" class="btn btn-sm btn-primary"> Go!</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive" ng-controller="modalDemoCtrl">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Counter Party</th>
+                                        <th>Amount </th>
+                                        <th>Setteled </th>
+                                        <th>Reduced Cost </th>
+                                        <th>No. Of Transactions </th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="tran in userTrans">
+                                        <td>{{tran.creationTime | date : 'dd-MM-yyyy'}}</td>
+                                        <td>{{tran.toCp}}</td>
+                                        <td>{{tran.amount}}</td>
+                                        <td>{{transDays == 1 ? 'In Progress' : 'Done'}}</td>
+                                        <td>{{tran.transCost}}</td>
+                                        <td>{{tran.transCount}}</td>
+                                        <td>
+                                            <a href="javascript:;">
+                                                <span class="label label-warning" ng-click="open3('lg')">
+                                                    Details
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

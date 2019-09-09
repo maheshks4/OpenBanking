@@ -1,0 +1,1533 @@
+{
+    "users": [
+        {
+            "user_id": "b9ed3a54-1e98-4ca1-9f95-76815373d9f4",
+            "email": "1000203893@example.com",
+            "provider_id": "1000203893",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203893",
+            "entitlements": {
+                "list": [
+                    {
+                        "entitlement_id": "34c6e49c-0fea-4c5c-a302-8af9ff45e03c",
+                        "role_name": "CanAddSocialMediaHandle",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "8c2f13a6-d82d-488e-befd-4d870ffc7bca",
+                        "role_name": "CanCreateBank",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "456e188a-1068-46eb-9c5a-21d02bb601ad",
+                        "role_name": "CanCreateBranch",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "120735c9-c8f0-4a4b-92da-5541928e1e2b",
+                        "role_name": "CanCreateBranch",
+                        "bank_id": "gh.29.uk"
+                    },
+                    {
+                        "entitlement_id": "0ecc5edb-7841-4e2d-95a2-5f94536c0588",
+                        "role_name": "CanCreateBranch",
+                        "bank_id": "String"
+                    },
+                    {
+                        "entitlement_id": "8375212f-1f3a-401e-a282-a0dbe1b08706",
+                        "role_name": "CanCreateCardsForBank",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "c521e5b5-807d-4ecb-93c9-5d373e4ff352",
+                        "role_name": "CanCreateCustomer",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "a4a62fb1-a530-4800-a974-0f7ba5680c1a",
+                        "role_name": "CanCreateTransactionType",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "b58d8e04-93bb-4df7-bc1b-d9f2e3c25477",
+                        "role_name": "CanCreateUserCustomerLink",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "86aad2c1-18ff-404d-ba14-6a46150ac41e",
+                        "role_name": "CanDisableConsumers",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "984042ef-69a8-4657-a0e3-fbd287886a0f",
+                        "role_name": "CanEnableConsumers",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "4b573ecb-d937-42fe-b05d-67aba54c79b4",
+                        "role_name": "CanGetAnyUser",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "63593686-21ec-446b-a3aa-28712b6e54ae",
+                        "role_name": "CanGetConfig",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "7ea1af0b-fa64-47b2-a47f-789970b4e4cc",
+                        "role_name": "CanGetConnectorMetrics",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "37e984e2-120e-4e4f-9223-e01c66eeadee",
+                        "role_name": "CanGetConsumers",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "2e1a9988-60e6-4396-be31-d37f99a50b50",
+                        "role_name": "CanGetEntitlementsForAnyUserAtAnyBank",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "09c5b7f7-524f-4b64-86ba-5f676bb38f12",
+                        "role_name": "CanGetSocialMediaHandles",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "f343d477-38f9-4eaf-81b1-79d304b08791",
+                        "role_name": "CanQueryOtherUser",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "9521e215-5285-476e-bfe2-0a0b3a5a9d29",
+                        "role_name": "CanReadMetrics",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "16771b90-031f-46c1-b947-00ac2e3e8a12",
+                        "role_name": "CanUpdateConsumerRedirectUrl",
+                        "bank_id": ""
+                    }
+                ]
+            }
+        },
+        {
+            "user_id": "7f6b1b0c-f771-4cde-9c72-a304ddce193b",
+            "email": "1000203892@example.com",
+            "provider_id": "1000203892",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203892",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "617d4db6-01b6-4e8f-879d-20283a7cf87f",
+            "email": "1000203894@example.com",
+            "provider_id": "1000203894",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203894",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "894ab688-d81c-4274-abe4-d756d894e23d",
+            "email": "mulugeta@tesobe.com",
+            "provider_id": "mulugeta",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "mulugeta",
+            "entitlements": {
+                "list": [
+                    {
+                        "entitlement_id": "d16897b3-a478-49ba-a812-ccf108549d48",
+                        "role_name": "CanGetAnyUser",
+                        "bank_id": ""
+                    }
+                ]
+            }
+        },
+        {
+            "user_id": "15f41cef-fe1a-4489-b78e-20c0c057d136",
+            "email": "zhw_gz@126.com",
+            "provider_id": "1000203891",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203891",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7806cafe-a95e-4698-949d-31459e013964",
+            "email": "zhw_gz@126.com",
+            "provider_id": "1000203899",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203899",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "c0b674a7-8977-4092-b033-7032f4101cc2",
+            "email": "zhw_gz@126.com",
+            "provider_id": "WEI_Test_socgenk",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "WEI_Test_socgenk",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "8af89e44-c596-4e87-9c49-4a6408509a72",
+            "email": "achantalou@octo.com",
+            "provider_id": "achantalou",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "achantalou",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "eea46928-acda-498d-bc92-437212c4746c",
+            "email": "simon@tesobe.com",
+            "provider_id": "simonredfern",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "simonredfern",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "8c28fe94-3a16-47b3-9c45-e6b53f79efec",
+            "email": "hamadi.hichri@uib.com.tn",
+            "provider_id": "hamadi.hichri@uib.com.tn",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "hamadi.hichri@uib.com.tn",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "14f04de3-73fd-4e8c-b922-396fc10f1c14",
+            "email": "fabrice.volkaert@socgen.com",
+            "provider_id": "FabriceVolkaert",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "FabriceVolkaert",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "4ff38805-e7f1-4488-a810-abc7b84194c1",
+            "email": "david.fiou@socgen.com",
+            "provider_id": "david123",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "david123",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "33920257-0965-4fc6-b2b8-20358f5053a0",
+            "email": "dnojean@gmail.com",
+            "provider_id": "dnojean",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "dnojean",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "28dcdaa6-e3ec-4c6c-8fda-433f76acd053",
+            "email": "guillaume.cecchini@socgen.com",
+            "provider_id": "gcecchin",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "gcecchin",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "4306b26f-7411-4480-af7f-81da21aa92c6",
+            "email": "simon.gomez@socgen.com",
+            "provider_id": "Simon",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Simon",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "096f48c8-f7ec-45a4-a070-d5f3f63cc07b",
+            "email": "negarkiran@gmail.com",
+            "provider_id": "negarkiran",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "negarkiran",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "2ffe0ee8-46fd-4c06-accb-5d7aafbd1437",
+            "email": "simon@tesobe.com",
+            "provider_id": "simonredfern2",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "simonredfern2",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7b397a3f-7840-435b-b64c-151236d0f3a5",
+            "email": "pejman.gohari@gmail.com",
+            "provider_id": "pejman",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "pejman",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "1bd9fa15-2249-4c0c-adac-f211994f6483",
+            "email": "aravindh.c@socgen.com",
+            "provider_id": "aravindh.c@socgen.com",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "aravindh.c@socgen.com",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7c1d0fef-96e7-49e3-9145-ecee0d8c06b5",
+            "email": "jeanbaptiste.watenberg@gmail.com",
+            "provider_id": "jbwatenberg",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "jbwatenberg",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "d2c8631f-569a-4f8d-b148-840f3e5ab9bb",
+            "email": "gracia.davy@gmail.com",
+            "provider_id": "jameson",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "jameson",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b777849e-eea7-41f1-8a61-f1add5ce5ce9",
+            "email": "mingli@socgen.com",
+            "provider_id": "liming",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "liming",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "21755b5a-fac6-4db7-944a-bfbe16101931",
+            "email": "ming.li@socgen.com",
+            "provider_id": "ming.li",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "ming.li",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "795d0c3b-3d5f-445d-b7cd-61fdd1c36194",
+            "email": "liming.mbds@yahoo.fr",
+            "provider_id": "liming.mbds",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "liming.mbds",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b7380a11-f0fc-49ed-a289-b6e0656a74d1",
+            "email": "cecile.nataf@socgen.com",
+            "provider_id": "cecile1206",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "cecile1206",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "1671016b-1b57-4426-8f18-d64878100f41",
+            "email": "david-henri.bismuth@niji.fr",
+            "provider_id": "dhbismuth",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "dhbismuth",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7deb56a2-0952-4644-88a9-5f4c3a678f5e",
+            "email": "madinina95@gmail.com",
+            "provider_id": "Yohan",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Yohan",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "c2662230-90ee-4d87-bc4d-33151588f7c0",
+            "email": "madinina95@gmail.com",
+            "provider_id": "yohan",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "yohan",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "52ffd9c3-3cc1-4bb4-941d-c6d923c098d4",
+            "email": "liming.mbds@yahoo.fr",
+            "provider_id": "liming3",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "liming3",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b8b850bc-5bef-40e3-94f6-53ffdc343cf1",
+            "email": "clement.jacquemaire@socgen.com",
+            "provider_id": "cjacquem",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "cjacquem",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "bc3aa7a7-1113-4a02-aa94-ae5d34b1bb81",
+            "email": "jose-ignacio.de-ceballos-andrade@socgen.com",
+            "provider_id": "joseceballos",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "joseceballos",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "aea9aaa9-f0d2-4e16-bead-b40c70ef0f59",
+            "email": "daniel.mourrain@socgen.com",
+            "provider_id": "DanielM",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "DanielM",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "388ebece-2ab1-4d5b-89c2-4ca18b38db95",
+            "email": "test@test.com",
+            "provider_id": "test",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "test",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "9791842c-c1d4-46b1-aab7-4c4dfa1cab7f",
+            "email": "remi.bouchard@sgcib.com",
+            "provider_id": "remi.bouchard",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "remi.bouchard",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "24fb5dca-4605-4659-a8f8-b6a4e9f6f9fa",
+            "email": "maxime.barbet@socgen.com",
+            "provider_id": "Hitscream",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Hitscream",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "e9d84a7b-c09b-4503-a2bc-35b498976585",
+            "email": "alexis.a.basley@socgen.com",
+            "provider_id": "AlexisBasley",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "AlexisBasley",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "4e1db436-a4ff-42f3-b18d-275a319b14f9",
+            "email": "antoine.aumjaud@socgen.com",
+            "provider_id": "AA",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "AA",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "e9c43333-0214-4802-bb9e-ea3d2bab8de9",
+            "email": "jerome.oudoul-ext@socgen.com",
+            "provider_id": "X151245",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "X151245",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "67a18855-92f9-45fe-bf1b-da442e5abb5a",
+            "email": "pierre.rigaud@societegenerale-insurance.it",
+            "provider_id": "PierreRig",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "PierreRig",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "0b4c6652-a987-4ea5-89e5-161d3e6140fc",
+            "email": "ismail@tesobe.com",
+            "provider_id": "",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": null,
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "0d254df1-0ea0-4d68-bbd5-0e343fad00f5",
+            "email": "bouchard.remi@yahoo.fr",
+            "provider_id": "rbouchard",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "rbouchard",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "a96130e9-9413-490a-ac21-61315bbfb9b3",
+            "email": "ismail@tesobe.com",
+            "provider_id": "ismail33",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "ismail33",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "a59b19e9-8730-457e-a871-ed5eb89338c6",
+            "email": "antoine.aumjaud@socgen.com",
+            "provider_id": "antoine.aumjaud@socgen.com",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "antoine.aumjaud@socgen.com",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "4996fe30-053c-4b24-92b0-4ebde3ead2c1",
+            "email": "simon.david.redfern@gmail.com",
+            "provider_id": "simondavidredfern",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "simondavidredfern",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "bb9465bd-c82f-40ba-ab82-abb6ca546fca",
+            "email": "sybinfotech@gmail.com",
+            "provider_id": "dshchuka",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "dshchuka",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "55caeb89-19b6-4646-8001-95988340035d",
+            "email": "ismail@tesobe.com",
+            "provider_id": "ismail5",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "ismail5",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "6f2ad600-00f6-42bd-853c-d7a576adf3cd",
+            "email": "quentin.pasquier@socgen.com",
+            "provider_id": "x153408",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "x153408",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "85d4ac66-3d67-4744-b970-fdb51fe80a8b",
+            "email": "mahesh.shivarudrappa@socgen.com",
+            "provider_id": "maheshks",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "maheshks",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "f98af10f-c1ab-49c0-a54e-722e74cd59f6",
+            "email": "geraldine.a.picenni@socgen.com",
+            "provider_id": "gepehi",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "gepehi",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "d0cf5ee6-5e57-4e3e-90a2-ee789aab3df8",
+            "email": "lionel.roth@socgen.com",
+            "provider_id": "lionel",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "lionel",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "a4da5db0-2713-4345-b812-3c5a356a339c",
+            "email": "olivier.villequey@utbm.fr",
+            "provider_id": "OlivierV",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "OlivierV",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "93c4073a-5966-4e8e-9932-6c558630b0a5",
+            "email": "ppppp@bbb.com",
+            "provider_id": "petarb",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "petarb",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "23d44c6f-bbfd-420c-9009-a71d1e00af79",
+            "email": "alexandre.navarro@sgcib.com",
+            "provider_id": "alexandre.navarro",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "alexandre.navarro",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "0866bd2a-bf37-4100-a132-38f80b441ef5",
+            "email": "madinina95@socgen.com",
+            "provider_id": "CsCHackaton",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "CsCHackaton",
+            "entitlements": {
+                "list": [
+                    {
+                        "entitlement_id": "945ef869-04b3-4485-a86b-285585e67fe5",
+                        "role_name": "CanAddSocialMediaHandle",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "94f4d67b-96c9-44fa-b819-46ccc1d6e44e",
+                        "role_name": "CanCreateBank",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "7f1b6c96-1efe-4e73-b71d-5ce69db9f6c1",
+                        "role_name": "CanCreateBranch",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "069121f3-68d4-4dd2-a9ab-bba390d31e50",
+                        "role_name": "CanCreateCardsForBank",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "5f20ab3e-d99f-40ce-8c35-3c7778687d36",
+                        "role_name": "CanCreateCustomer",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "2e7b139e-ed58-4dff-b1f0-b375072ca42a",
+                        "role_name": "CanCreateTransactionType",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "0be1f46f-bcf8-403e-8cb4-cb8ad1bf5d63",
+                        "role_name": "CanCreateUserCustomerLink",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "f8ab783f-e06e-4887-9102-d4ab3a0bbc03",
+                        "role_name": "CanDisableConsumers",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "e5913dd0-d814-4c3b-b878-889b6adcc75c",
+                        "role_name": "CanEnableConsumers",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "4f095e8a-a0a1-486f-bf43-38b29178116c",
+                        "role_name": "CanGetAnyUser",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "ceb3b9d3-763a-40c1-b0d1-c1b340daaafc",
+                        "role_name": "CanGetConfig",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "ae4a2f11-bf57-499d-8645-c737b51a77fe",
+                        "role_name": "CanGetConnectorMetrics",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "c6ac9064-93ce-4ef3-ab8d-2cab822b7c60",
+                        "role_name": "CanGetConsumers",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "fad1753e-b799-4340-9ae0-1e527840f95c",
+                        "role_name": "CanGetEntitlementsForAnyUserAtAnyBank",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "034114e3-5068-46fe-8f11-0bad854d325d",
+                        "role_name": "CanGetSocialMediaHandles",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "6f2041e7-3d67-4695-8e2d-223efff7bdf7",
+                        "role_name": "CanQueryOtherUser",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "7aeb01b7-3902-40fa-945b-961b239b12fd",
+                        "role_name": "CanReadMetrics",
+                        "bank_id": ""
+                    },
+                    {
+                        "entitlement_id": "8e02bd70-dd70-4a83-af30-3eb78b697e8d",
+                        "role_name": "CanUpdateConsumerRedirectUrl",
+                        "bank_id": ""
+                    }
+                ]
+            }
+        },
+        {
+            "user_id": "b9303abd-0c95-4052-9534-015a5ed9b9b1",
+            "email": "mahesh.shivarudrappa@socgen.com",
+            "provider_id": "mahesh.shivarudrappa",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "mahesh.shivarudrappa",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "a2650fdc-6251-4d6d-9682-657f9fc0243e",
+            "email": "lokanath.waramballi@socgen.com",
+            "provider_id": "lokanw",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "lokanw",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "534f103a-85cd-4b05-9a05-14f564bcd7c0",
+            "email": "bharath.dhananjaya@socgen.com",
+            "provider_id": "bdhananj112315",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "bdhananj112315",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "e244d3e1-53de-4be4-9cf2-81431e7f522c",
+            "email": "ronald.de-la-reberdiere-ext@socgen.com",
+            "provider_id": "ronaldo971",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "ronaldo971",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "4db33aa3-d8ca-4066-8c7f-fb3a6839a01b",
+            "email": "siva.nusum@gmail.com",
+            "provider_id": "sivareddy30",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "sivareddy30",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "11e062f4-5a61-4414-b086-300886d9f296",
+            "email": "olivier.daunis@gmail.com",
+            "provider_id": "motomo",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "motomo",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "84d9da17-79f0-4eff-93fc-bdf9765720bb",
+            "email": "droux@google.com",
+            "provider_id": "droux",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "droux",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "997755c2-3ac6-4091-9d1e-1664a5d69c57",
+            "email": "ravi-sesha.annem@socgen.com",
+            "provider_id": "ravisesharao",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "ravisesharao",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "6f7df938-c4f4-4ddf-94f5-0e3d68c85e5d",
+            "email": "hbassoka@gmail.com",
+            "provider_id": "hbassoka",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "hbassoka",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "ab2e609d-c265-475f-93ae-de401014b0c0",
+            "email": "santosh.suru@socgen.com",
+            "provider_id": "santosh.suru",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "santosh.suru",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "d9062763-8774-4030-ba8f-593c53794cf5",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203905",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203905",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "02834051-4109-478f-acc0-7d1647e6706f",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203906",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203906",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "edc0d89f-b49b-458b-aa5f-aa635de8225d",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203907",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203907",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "c549ccef-5a01-488f-84e5-7725fe82ce5d",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203908",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203908",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "67820923-d73e-442c-ab90-a40197b052bf",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203909",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203909",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "c99ee189-d87b-4516-8e63-0c37af3610b1",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203910",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203910",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "9360cca3-0fd5-4aba-9fbf-4ad731e68781",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203911",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203911",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "c0bbd4aa-2d67-4841-bacf-863082ee00f4",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203912",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203912",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "ed978b84-88e4-4471-8c29-8b52813dbf86",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203913",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203913",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "14f8fb8e-fa9d-49ce-b514-5198a0b30be1",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203914",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203914",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "1c98821d-d086-4868-a21c-0feb4b69b0f9",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203915",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203915",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "95d05a99-832b-4cc1-8e3b-8688cd3185da",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203916",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203916",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "5654f45a-f2ab-4886-ab16-ab28b536714d",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203917",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203917",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "f3725f5d-3c91-4c5a-be1e-d14e38e873da",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203918",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203918",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "6192ef8b-2ddd-4b64-9fcc-d9f1811cfc2c",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203919",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203919",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "2d3a9814-c9ec-427a-b4a8-ca73c075dbde",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203920",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203920",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "1897a61f-948a-424d-84d8-d3c82c172cc7",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203921",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203921",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "0e827092-e0e0-411a-8c40-b458117bf336",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203922",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203922",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "5c67a3e8-8baf-4d9b-9733-cf2941df69c1",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203923",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203923",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "95e160b1-8396-463d-a59f-c69c02c46355",
+            "email": "hongwei@tesobe.com",
+            "provider_id": "1000203924",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "1000203924",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "bf630cc4-98c1-4659-ac58-125b66eab9fc",
+            "email": "sybinfotech@gmail.com",
+            "provider_id": "sybinfotech@gmail.com",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "sybinfotech@gmail.com",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "54b7986a-4ccb-410b-9eb0-b6daa66a4d83",
+            "email": "zhw_gz@126.com",
+            "provider_id": "developer",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "developer",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "1c35def9-64cc-45aa-b3b3-7280cf873b53",
+            "email": "marko@tesobe.com",
+            "provider_id": "marko.milic",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "marko.milic",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "fed99979-7aaf-4485-a0b3-4014eb6277e4",
+            "email": "jeanbaptiste.watenberg@gmail.com",
+            "provider_id": "jwatenbe",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "jwatenbe",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "f67df825-05c4-424f-b567-a9b7e2b55534",
+            "email": "jeanbaptiste.watenberg@gmail.com",
+            "provider_id": "jwatenberg",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "jwatenberg",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7598afb3-64eb-40b1-baff-964b2b31b1d0",
+            "email": "horia.velicu@brd.ro",
+            "provider_id": "horia33",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "horia33",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7be264ba-1ad6-4b9c-a36f-5d57b70828c9",
+            "email": "moumen.omar@gmail.com",
+            "provider_id": "omoumen",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "omoumen",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "d90be0ff-107a-468d-b9cd-f5ef10b70155",
+            "email": "julien.nobile@gmail.com",
+            "provider_id": "toto",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "toto",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "4560725a-5107-4de5-be5a-884269787a0c",
+            "email": "pandiarajan.it2@gmail.com",
+            "provider_id": "pandian17",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "pandian17",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b0f922e1-c220-42ea-ac90-43d4c4d891b8",
+            "email": "manuel.lemaire.h@gmail.com",
+            "provider_id": "ManuLEM",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "ManuLEM",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7ba01e52-6a3f-41a6-a894-61dab5b3cfca",
+            "email": "quentin.pasquier@socgen.com",
+            "provider_id": "testUser",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "testUser",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "3c1c8913-3920-441e-b395-1dd0ebffccbc",
+            "email": "himanshu.dhawan@gmail.com",
+            "provider_id": "himanshu.dhawan",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "himanshu.dhawan",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "555af9b7-f96a-40bc-b102-975203ffdac2",
+            "email": "quentin.pasquier@gmail.com",
+            "provider_id": "X153408",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "X153408",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b1232447-92ad-4e57-a1ee-bf56f757286d",
+            "email": "alexandra.pal@brd.ro",
+            "provider_id": "paulapal",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "paulapal",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b2a53593-c7bd-43d3-a0bd-a2fa09267097",
+            "email": "jean-david.lam@socgen.com",
+            "provider_id": "jdlam",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "jdlam",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "8c973ca2-5083-4f34-b861-6bd13cda2f7b",
+            "email": "yedoubouam-bryan.boukari@socgen.com",
+            "provider_id": "bryanboukari",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "bryanboukari",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "032323a3-2155-4179-8b07-8c75e6b4d76b",
+            "email": "rigann.lun@sgcib.com",
+            "provider_id": "rigann",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "rigann",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "d5cfaeef-16ff-4b43-b619-06b2d6df9e2f",
+            "email": "sadsad@fdg.com",
+            "provider_id": "Mahesh",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Mahesh",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "5b5ea38b-00be-4b16-a8b5-caeb49f0f4ca",
+            "email": "sumit.das1@socgen.com",
+            "provider_id": "sumitdas",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "sumitdas",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "a15bf030-612f-4ee9-9753-54c4333f589c",
+            "email": "tchern0072@gmail.com",
+            "provider_id": "tata",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "tata",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b562bbad-b9b3-4383-b33d-4c8f1b8a664d",
+            "email": "jonathan.wadin@socgen.com",
+            "provider_id": "wadinj",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "wadinj",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "0a4035cd-192d-42dc-b446-867aae4c3d21",
+            "email": "himanshu.dhawan@socgen.com",
+            "provider_id": "himanshudhawan83",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "himanshudhawan83",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "ca8d14ab-8df5-4409-88d8-f7aaa0aaadac",
+            "email": "sanjeev.hegde@socgen.com",
+            "provider_id": "sanjeev.hegde",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "sanjeev.hegde",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "812f8b8e-3958-4bee-b3be-8e6ad1ce7923",
+            "email": "mickael.benhassen@socgen.com",
+            "provider_id": "mickael",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "mickael",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "6ad6bc15-d5dc-4e88-987b-5a962ce84437",
+            "email": "akshaynaik033@gmail.com",
+            "provider_id": "Akshay",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Akshay",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "0acf5be3-db1e-4f5d-89ec-9d1c8c9027f8",
+            "email": "maxence.a.delaval@socgen.com",
+            "provider_id": "Maxence",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Maxence",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "06cb5d03-bac8-452c-b437-5f5bdf93290a",
+            "email": "chinnasamyad@gmail.com",
+            "provider_id": "chinnasamyad@gmail.com",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "chinnasamyad@gmail.com",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7e1cd0cd-07f5-4cf3-8e80-73532a783014",
+            "email": "akash.agrawal@socgen.com",
+            "provider_id": "tms-italy",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "tms-italy",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "868ba96a-e3de-4af6-8d16-414c756eb419",
+            "email": "morgan.jeremie-ext@socgen.com",
+            "provider_id": "DaMorgan",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "DaMorgan",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "2a74a1a6-addc-419d-8915-0a1354d774ec",
+            "email": "simon+says@tesobe.com",
+            "provider_id": "simonsays",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "simonsays",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "c026c8ed-f27c-4207-9b9c-94edfd21e50c",
+            "email": "kevin.briffaut-ext@socgen.com",
+            "provider_id": "HolyNoodle",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "HolyNoodle",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "98c2a236-0fba-461a-842a-282d05a7ef38",
+            "email": "abs@ffaf",
+            "provider_id": "TMS",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "TMS",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "14eca741-ca0e-4169-9a5a-fbbef9c0a3ca",
+            "email": "akashnaubatka@gmail.com",
+            "provider_id": "tms-italy-end-user",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "tms-italy-end-user",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "e1a1838f-e4b8-4204-8128-c694170fef2e",
+            "email": "wen.xia@socgen.com",
+            "provider_id": "wen",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "wen",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "3a62ba28-8358-4fed-acc9-8060ad380821",
+            "email": "matthieu.dubois@socgen.com",
+            "provider_id": "mdubois",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "mdubois",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "27b2f6ca-05a6-40f8-91fd-9022cd7bae6d",
+            "email": "vr.srinidhi@gmail.com",
+            "provider_id": "vr.srinidhi",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "vr.srinidhi",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "d7f99b4c-7d9e-42ef-bc72-948af0ec6178",
+            "email": "akshaynaik033@gmail.com",
+            "provider_id": "Akshay29",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Akshay29",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "619c9678-e16f-4760-b7aa-b73a9ff94f30",
+            "email": "marko@tesobe.com",
+            "provider_id": "data.importer",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "data.importer",
+            "entitlements": {
+                "list": [
+                    {
+                        "entitlement_id": "283c38f8-78af-477f-bfff-14dc7a042ed2",
+                        "role_name": "CanCreateBranch",
+                        "bank_id": "00100"
+                    },
+                    {
+                        "entitlement_id": "8e7b87a0-398f-4754-9bd4-2d0e94317226",
+                        "role_name": "CanCreateProduct",
+                        "bank_id": "00100"
+                    }
+                ]
+            }
+        },
+        {
+            "user_id": "53394724-e2d8-422e-876e-a1a97611a1d9",
+            "email": "nicolas.martinho@outlook.fr",
+            "provider_id": "Kysna",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Kysna",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "2dd8e850-a09f-4ce4-8b34-769e4d9fd899",
+            "email": "steve.heinis@hotmail.fr",
+            "provider_id": "steveheinis",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "steveheinis",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "93a79e59-0909-4cf3-a4e8-db3a9150531d",
+            "email": "nassimbelferoum@gmail.com",
+            "provider_id": "Snyplife",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Snyplife",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "8e722205-9b85-41b4-9346-645f212f612b",
+            "email": "olivier.daunis@gmail.com",
+            "provider_id": "extrabot",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "extrabot",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7b215d22-dd16-4d7e-8413-60fba667a829",
+            "email": "d.kikusan@gmail.com",
+            "provider_id": "kikusan",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "kikusan",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "4f8b1ed8-dba3-4809-a0a6-84f479889c6e",
+            "email": "mr.berrouane@gmail.com",
+            "provider_id": "Ali",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "Ali",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "b2a93073-d570-4d17-9726-9bc2b607a625",
+            "email": "nolebarbet95@gmail.com",
+            "provider_id": "team13",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "team13",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "7da3dfa2-ac73-4d80-a882-c40cdb736a3e",
+            "email": "ujagar.iitd@gmail.com",
+            "provider_id": "uditujagar",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "uditujagar",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "366114a9-9d0a-4340-b9c8-7041446b2806",
+            "email": "torben.diehr@gefa.de",
+            "provider_id": "candybanker",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "candybanker",
+            "entitlements": {
+                "list": []
+            }
+        },
+        {
+            "user_id": "3fc0156a-ca65-4eaa-bbc8-1e58e4ae6dbc",
+            "email": "annelaure.trabon@gmail.com",
+            "provider_id": "alt",
+            "provider": "https://socgen-k-api.openbankproject.com",
+            "username": "alt",
+            "entitlements": {
+                "list": []
+            }
+        }
+    ]
+}

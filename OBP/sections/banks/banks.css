@@ -1,0 +1,67 @@
+#map 
+{
+  width: inherit;
+  height: 300px;
+}
+
+.banks-title {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300;
+    background-color: #333;
+    color: #FFF;
+}
+.banks {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+.banks li {
+    position: relative;
+    background-color: #FFF;
+    padding: 20px 150px 20px 20px;
+    margin-bottom: 20px;
+}
+.banks li.offline {
+    background-color: #999999;
+    color: #666666;
+}
+.banks li .btn-view {
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+
+.banks li .btn-atm {
+    position: absolute;
+    right: 120px;
+    top: 40px;
+}
+
+.banks li .btn-prd {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+.banks li p {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+}
+.banks li .number {
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: #333;
+    margin: 0 20px 0 0;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    color: #CCC;
+}
+.banks li.offline .number {
+    background-color: #919191;
+    color: #666;
+}

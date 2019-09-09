@@ -1,0 +1,14 @@
+http://192.168.160.1:8080/user/srinidhi
+[{"counterParty":"Srinidhi Infotech","bank":"HSBC","user":"Srinidhi","account":"HS1100001111","balance":"10000","fxRate":"1.30","inFlow":"1000","outFlow":"2000"},{"counterParty":"Srinidhi Infotech","bank":"RBS","user":"Srinidhi","account":"RB2100002111","balance":"7000","fxRate":"1.32","inFlow":"2000","outFlow":"1500"}]
+
+http://192.168.160.1:8080/user/srinidhi/saving
+/user/{cp}/saving/{freq}
+{"Total Saving":"1000","Total Netting":"20","Total Merged":"25"}
+
+http://192.168.160.1:8080/user/srinidhi/transaction/out
+/user/{cp}/transaction/{transType}/{freq}
+[{"fromCp":"Srinidhi Infotech","fromAcc":"HS1100001111","toCp":"Santosh Infotech","toAcc":"HS1100001112","amount":10000,"transCost":20,"transCount":5,"creationTime":1499329932934}]
+
+http://192.168.160.1:8080/user/srinidhi/transaction/srinidhi%20infotech
+/user/{fcp}/transaction/{tcp}/{transType}/{freq}
+[{"fromCp":"Srinidhi Infotech","fromAcc":"HS1100001111","toCp":"Santosh Infotech","toAcc":"HS1100001112","amount":5000,"transCost":5,"transCount":5,"creationTime":1499329959116},{"fromCp":"Srinidhi Infotech","fromAcc":"HS1100001111","toCp":"Santosh Infotech","toAcc":"HS1100001112","amount":2000,"transCost":0,"transCount":5,"creationTime":1499329959116},{"fromCp":"Srinidhi Infotech","fromAcc":"HS1100001111","toCp":"Santosh Infotech","toAcc":"HS1100001112","amount":500,"transCost":0,"transCount":5,"creationTime":1499329959116},{"fromCp":"Srinidhi Infotech","fromAcc":"HS1100001111","toCp":"Santosh Infotech","toAcc":"HS1100001112","amount":700,"transCost":0,"transCount":5,"creationTime":1499329959116},{"fromCp":"Srinidhi Infotech","fromAcc":"HS1100001111","toCp":"Santosh Infotech","toAcc":"HS1100001112","amount":1800,"transCost":0,"transCount":5,"creationTime":1499329959116}]

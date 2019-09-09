@@ -1,0 +1,86 @@
+<div class="home-frame" ng-init="banksInit()">
+	<div class="container"> 
+		<div class="search-top">
+			<div class="input-group">
+				<input type="text" class="form-control input-lg" ng-model="searchText">
+				<span class="input-group-btn">
+					<button class="btn btn-info btn-lg search-btn" type="button"><span class="glyphicon glyphicon-search"></span> Search</button>
+				</span>
+			</div>
+		</div>
+	</div>	
+	
+	<div class="container">
+		<!-- <ul class="banks">
+			<li ng-repeat="myatm in banks.atmList"> 
+				<p>{{myatm.id}} &nbsp;&nbsp; {{myatm.name}} &nbsp;&nbsp; {{myatm.address.city}}</p>                     
+			</li>
+		</ul> -->
+		<ul class="banks">
+			<li ng-repeat="bank in banks.banksList | filter:searchText" >
+				<div class="number">#{{$index + 1}}</div>
+				<h3>{{bank.full_name}}</h3>
+				<p>{{bank.short_name}}</p>
+				<p>{{bank.id}}</p>
+				<p>Address : {{bank.bank_routing.address}}</p>
+				<a href="{{bank.website}}" target="_blank" data-ng-class="{'disabled': (bank.website == null)}" class="btn btn-view btn-lg btn-primary"><span class="icon icon-arrow-up-right5"></span> View</a>
+				<a href="javascript:;" ng-click=getBankAtms(bank.id) class="btn btn-atm btn-lg btn-primary">Atms</a>
+				<a href="javascript:;" ng-click=getBankProducts(bank.id) class="btn btn-prd btn-lg btn-primary">Products</a>
+				<div class="clearfix"></div>
+			</li>
+
+		</ul>
+
+
+	</div>
+
+	
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">ATMS</h4>
+				</div>
+				<div class="modal-body">
+					<ul>
+						<li ng-repeat="myatm in banks.atmList"> 
+							<p>{{myatm.id}} &nbsp;&nbsp; {{myatm.name}} &nbsp;&nbsp; {{myatm.address.city}}</p>                     
+						</li>
+					</ul>
+					<div id="map"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="modal fade" id="myProductModal" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Products</h4>
+				</div>
+				<div class="modal-body">
+					<ul>					
+						<li ng-repeat="myproduct in banks.productList"> 
+							<p>{{myproduct.code}} &nbsp;&nbsp; {{myproduct.name}} &nbsp;&nbsp; {{myproduct.category}}</p>                     
+						</li>
+					</ul>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>
